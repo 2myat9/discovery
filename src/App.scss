@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Prata', serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.welcome-msg {
+  font-size: 2rem;
 }
